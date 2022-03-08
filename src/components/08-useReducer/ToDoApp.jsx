@@ -5,7 +5,7 @@ import { ToDoAdd } from './ToDoAdd';
 
 import './styless.css';
 
-// Función init ayuda a establecer el estado inicial del reducer.
+// Función init ayuda a establecer el estado inicial del reducer en diferido.
 const init = () => JSON.parse(localStorage.getItem('toDos')) || [];
 
 export const ToDoApp = () => {
